@@ -1,0 +1,36 @@
+catch { setAnalysisMode -analysisType single }
+catch { setAnalysisMode -checkType setup }
+catch { setAnalysisMode -clkSrcPath true }
+catch { setAnalysisMode -clockPropagation sdcControl }
+catch { setAnalysisMode -virtualIPO false }
+catch { setTrialRouteMode -fixAirConnect true }
+catch { setTrialRouteMode -maxRouteLayer 8 }
+setExtractRCMode  -engine preRoute
+catch { setDelayCalMode -engine aae }
+catch { setDelayCalMode -ignoreNetLoad false }
+catch { setCTSMode -moveGateLimit 25 }
+catch {setNanoRouteMode -quiet -drouteFixAntenna false}
+catch {setNanoRouteMode -quiet -routeTopRoutingLayer 8}
+catch {setNanoRouteMode -quiet -routeWithSiDriven false}
+catch {setNanoRouteMode -quiet -routeWithSiPostRouteFix false}
+catch {setNanoRouteMode -quiet -routeWithTimingDriven false}
+catch {setNanoRouteMode -quiet -timingEngine ""}
+
+catch { setPlaceMode -checkPinLayerForAccess 1 }
+catch { setPlaceMode -checkRoute false }
+catch { setPlaceMode -clkGateAware true }
+catch { setPlaceMode -congEffort auto }
+catch { setPlaceMode -fp false }
+catch { setPlaceMode -ignoreScan true }
+catch { setPlaceMode -ignoreSpare true }
+catch { setPlaceMode -maxRouteLayer 8 }
+catch { setPlaceMode -moduleAwareSpare false }
+catch { setPlaceMode -modulePlan true }
+catch { setPlaceMode -placeIoPins true }
+catch { setPlaceMode -powerDriven false }
+catch { setPlaceMode -preserveRouting false }
+catch { setPlaceMode -reorderScan true }
+catch { setPlaceMode -rmAffectedRouting false }
+catch { setPlaceMode -swapEEQ false }
+catch { setPlaceMode -timingDriven true }
+catch { setIlmMode -highFanoutPort true -loopBack false -keepFlatten false -mergeModel true }

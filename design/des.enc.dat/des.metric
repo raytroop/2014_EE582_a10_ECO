@@ -1,0 +1,89 @@
+se::start_metric placeDesign {-noPrePlaceOpt}
+se::save_metric design.numStandardCell {2}
+se::save_metric design.numNet {3}
+se::save_metric design.numFloatBlock {0}
+se::save_metric design.numFixedBlock {0}
+se::save_metric design.numSingleRowCell {2}
+se::save_metric design.numDoubleRowCell {0}
+se::save_metric design.numMultiRowCell {0}
+se::save_metric design.numIoInst {0}
+se::save_metric design.numFixedIo {0}
+se::save_metric design.numFloatIo {0}
+se::save_metric design.numTerm {6}
+se::save_metric design.numTermPerNet {2.00}
+se::save_metric design.util {0.008 %}
+se::save_metric design.pinDensity {1.000}
+se::save_metric place.totalNetLength {7.63e+00 um}
+se::save_metric cputime {0:0:3}
+se::save_metric realtime {0:0:3}
+se::save_metric mem {754.9M}
+se::end_metric placeDesign {-noPrePlaceOpt}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.gcell.overCon.metal1 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.metal2 {(0.00%)}
+se::save_metric routeDesign.gcell.overCon.total {(0.00%)}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {5020 um}
+se::save_metric routeDesign.wirelength.metal1 {5002 um}
+se::save_metric routeDesign.wirelength.metal2 {19 um}
+se::save_metric routeDesign.wirelength.metal3 {0 um}
+se::save_metric routeDesign.wirelength.metal4 {0 um}
+se::save_metric routeDesign.wirelength.metal5 {0 um}
+se::save_metric routeDesign.wirelength.metal6 {0 um}
+se::save_metric routeDesign.wirelength.metal7 {0 um}
+se::save_metric routeDesign.wirelength.metal8 {0 um}
+se::save_metric routeDesign.wirelength.metal9 {0 um}
+se::save_metric routeDesign.wirelength.metal10 {0 um}
+se::save_metric routeDesign.via.total {10}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.via1 {10}
+se::save_metric routeDesign.multicutvia.via1 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {5012 um}
+se::save_metric routeDesign.wirelength.metal1 {5003 um}
+se::save_metric routeDesign.wirelength.metal2 {9 um}
+se::save_metric routeDesign.wirelength.metal3 {0 um}
+se::save_metric routeDesign.wirelength.metal4 {0 um}
+se::save_metric routeDesign.wirelength.metal5 {0 um}
+se::save_metric routeDesign.wirelength.metal6 {0 um}
+se::save_metric routeDesign.wirelength.metal7 {0 um}
+se::save_metric routeDesign.wirelength.metal8 {0 um}
+se::save_metric routeDesign.wirelength.metal9 {0 um}
+se::save_metric routeDesign.wirelength.metal10 {0 um}
+se::save_metric routeDesign.via.total {10}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.via1 {10}
+se::save_metric routeDesign.multicutvia.via1 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.wirelength.total {5006 um}
+se::save_metric routeDesign.wirelength.metal1 {5003 um}
+se::save_metric routeDesign.wirelength.metal2 {4 um}
+se::save_metric routeDesign.wirelength.metal3 {0 um}
+se::save_metric routeDesign.wirelength.metal4 {0 um}
+se::save_metric routeDesign.wirelength.metal5 {0 um}
+se::save_metric routeDesign.wirelength.metal6 {0 um}
+se::save_metric routeDesign.wirelength.metal7 {0 um}
+se::save_metric routeDesign.wirelength.metal8 {0 um}
+se::save_metric routeDesign.wirelength.metal9 {0 um}
+se::save_metric routeDesign.wirelength.metal10 {0 um}
+se::save_metric routeDesign.via.total {6}
+se::save_metric routeDesign.multicutvia.total {0}
+se::save_metric routeDesign.via.via1 {6}
+se::save_metric routeDesign.multicutvia.via1 {0}
+se::end_metric routeDesign {}
+se::start_metric routeDesign {}
+se::save_metric routeDesign.DRC.total {0}
+se::save_metric routeDesign.DRC.metal1 {0}
+se::save_metric routeDesign.DRC.metal2 {0}
+se::save_metric routeDesign.DRC.metal3 {0}
+se::save_metric routeDesign.DRC.metal4 {0}
+se::save_metric routeDesign.DRC.metal5 {0}
+se::save_metric routeDesign.DRC.metal6 {0}
+se::save_metric routeDesign.DRC.metal7 {0}
+se::save_metric routeDesign.DRC.metal8 {0}
+se::save_metric routeDesign.DRC.metal9 {0}
+se::save_metric routeDesign.DRC.metal10 {0}
+se::end_metric routeDesign {}
